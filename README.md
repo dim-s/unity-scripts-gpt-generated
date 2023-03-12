@@ -23,18 +23,8 @@ To use the `StreamingAssetsLoader` utility class in your Unity project, follow t
     ```csharp
     byte[] fileContents = StreamingAssetsLoader.LoadBytes("MyFolder/MyBinaryFile.bin");
     ```
-
-4. Use the `ListFilesInFolder` method to list the files in a folder in the `StreamingAssets` directory:
-
-    ```csharp
-    string[] filesInFolder = StreamingAssetsLoader.ListFilesInFolder("MyFolder");
-    foreach (string fileName in filesInFolder)
-    {
-        Debug.Log($"Found file: {fileName}");
-    }
-    ```
-
-5. Use the `ListFilesInFolderRecursive` method to list the files in a folder in the `StreamingAssets` directory and all its subfolders:
+    
+4. Use the `ListFilesInFolderRecursive` method to list the files in a folder in the `StreamingAssets` directory and all its subfolders:
 
     ```csharp
     List<string> allFiles = StreamingAssetsLoader.ListFilesInFolderRecursive("MyFolder");
