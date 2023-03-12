@@ -1,8 +1,10 @@
 # unity-scripts-gpt-generated
 GPT generated scripts and utils for Unity
 
+## Navigation
+- [StreamingAssetsLoader](#StreamingAssetsLoader)
 
-## StreamingAssetsLoader
+### StreamingAssetsLoader <a id="StreamingAssetsLoader"></a>
 
 The `StreamingAssetsLoader` utility class provides methods for loading files from the `StreamingAssets` directory in Unity, as well as listing the files in a folder in the directory.
 
