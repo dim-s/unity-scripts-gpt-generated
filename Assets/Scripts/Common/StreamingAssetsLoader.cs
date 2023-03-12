@@ -5,7 +5,6 @@ using UnityEngine;
 
 namespace Common
 {
-
     /// <summary>
     /// A utility class for loading files from the StreamingAssets directory in Unity.
     /// </summary>
