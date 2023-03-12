@@ -1,6 +1,8 @@
 # unity-scripts-gpt-generated
 ChatGPT useful generated scripts and utils for Unity. 
-(!) All scripts are checked by human and they work properly. 
+
+> **Note:**
+> All scripts are checked by human and they work properly. 
 
 ## Navigation
 - [StreamingAssetsLoader](#StreamingAssetsLoader)
