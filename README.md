@@ -6,6 +6,8 @@ GPT generated scripts and utils for Unity
 
 The `StreamingAssetsLoader` utility class provides methods for loading files from the `StreamingAssets` directory in Unity, as well as listing the files in a folder in the directory.
 
+The `StreamingAssets` folder in Unity is used to store files that should be included in the built game or application and are available at runtime. This folder can be used to store any kind of file, such as audio files, video files, images, text files, and more.
+
 To use the `StreamingAssetsLoader` utility class in your Unity project, follow these steps:
 
 1. Import the `StreamingAssetsLoader.cs` file into your project's Assets directory.
